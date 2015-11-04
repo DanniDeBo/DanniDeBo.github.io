@@ -1,0 +1,37 @@
+
+.p2 {
+ color:blue;
+}
+.p1, .p3{
+ color:aqua;
+ text: bold;
+ font: Helvetica;
+}
+
+h1{
+background-color: pink;
+position:fixed;
+z-index: 100;
+}
+h2{
+ background-color: lime;
+ position:relative;
+ z-index: 95;
+ text-transform: uppercase;
+}
+h3 {
+  position: absolute;
+
+}
+#wrapper {
+  margin: 5px 10px 20px 5px;
+  border: 1px purple solid;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+#wrapper p{
+  background-color: pink;
+}
